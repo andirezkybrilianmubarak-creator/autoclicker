@@ -18,10 +18,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Setup Gradle
+      - name: Setup Gradle 8.5
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.5'
 
-      - name: Build Debug APK via Installed Gradle
+      - name: Build Debug APK via Gradle 8.5
         run: |
           cd AutoClicker/AutoClicker
           gradle assembleDebug --no-daemon
