@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="accessibility_service_description">Allows this app to perform taps and swipes on screen only while you have an automation session active in the app. You control when this is on, and you can turn it off at any time from the app or from Settings.</string>
+    <string name="status_enabled">Accessibility Service: ENABLED</string>
+    <string name="status_disabled">Accessibility Service: DISABLED</string>
+    <string name="session_active">Session: ACTIVE</string>
+    <string name="session_inactive">Session: INACTIVE</string>
+    <string name="btn_open_settings">Enable Accessibility Service</string>
+    <string name="btn_start_session">START AUTOMATION SESSION</string>
+    <string name="btn_stop_session">STOP SESSION</string>
+    <string name="notification_channel_name">Automation Session</string>
+    <string name="notification_channel_desc">Shows when an on-device automation session is running</string>
+    <string name="notification_title">Automation session active</string>
+    <string name="notification_text">Tap to return to the app and stop the session.</string>
+</resources>
